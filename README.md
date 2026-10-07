@@ -1,25 +1,28 @@
-# SASS - Landing Page
+# Sass Landing Page
 
-A modern, responsive landing page built with semantic HTML5, modular Sass (SCSS) architecture, and clean vanilla JavaScript.
+A modern, responsive landing page crafted with semantic HTML5, modular Sass/SCSS architecture, and clean JavaScript.
 
-[View Live Demo](https://pantelex.github.io/sass-landing-page/)
+🔗 **Live Demo:** [https://pantelex.github.io/sass-landing-page/](https://pantelex.github.io/sass-landing-page/)  
+📁 **Repository:** [https://github.com/pantelex/sass-landing-page](https://github.com/pantelex/sass-landing-page)
+
+---
 
 ## 🚀 Key Features
 
-- **Mobile-First Responsive Design:** Fully optimized across mobile devices, tablets, and high-resolution desktop screens.
-- **Modular Sass/SCSS Architecture:** Clean folder structure using partials (`_variables.scss`, `_mixins.scss`, `_layout.scss`) for maintainable, scalable styling.
-- **Interactive UI (Vanilla JavaScript):** Smooth client-side interactions [e.g., mobile hamburger navigation, modal triggers, FAQ accordion] built without external libraries.
-- **Semantic HTML5:** Structured for accessibility (a11y) standards and clean SEO indexing.
-- **BEM Methodology:** Predictable, maintainable CSS class naming conventions to prevent style inheritance conflicts.
+- **Responsive Mobile-First Design:** Fluid layout optimized for smartphones, tablets, laptops, and desktop screens.
+- **Modular SCSS Architecture:** Structured stylesheet hierarchy using partials, variables, mixins, and functions for scalable and maintainable CSS.
+- **Modern Layout Systems:** Built using Flexbox and CSS Grid for layout precision and alignment.
+- **Interactive UI:** Smooth transitions, interactive states, and mobile navigation built with lightweight Vanilla JavaScript.
+- **Clean & Accessible Code:** Semantic HTML structure ensuring accessibility (a11y) and SEO best practices.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5:** Semantic document structure
-- **Sass (SCSS):** CSS preprocessor utilizing variables, mixins, nesting, and modular imports
-- **JavaScript (ES6+):** Client-side DOM manipulation and event handling
-- **Git & GitHub:** Version control and remote repository hosting
+- **HTML5:** Semantic structure and content layout
+- **Sass / SCSS:** Preprocessing with variables, nesting, partials, and responsive mixins
+- **JavaScript (ES6+):** Client-side interactivity and DOM manipulation
+- **Git & GitHub Pages:** Version control and live deployment
 
 ---
 
@@ -28,15 +31,15 @@ A modern, responsive landing page built with semantic HTML5, modular Sass (SCSS)
 ```text
 scss/
 ├── abstracts/
-│   ├── _variables.scss    # Color palette, font definitions, spacing scale
-│   └── _mixins.scss       # Responsive breakpoints and reusable mixins
+│   ├── _variables.scss    # Color palette, fonts, spacing
+│   └── _mixins.scss       # Breakpoints & reusable utility mixins
 ├── base/
-│   ├── _reset.scss        # Reset rules and box-sizing normalization
-│   └── _typography.scss   # Global font weights, line heights, and headings
+│   ├── _reset.scss        # Reset & box-sizing rules
+│   └── _typography.scss   # Global typography
 ├── components/
-│   ├── _buttons.scss      # Button components and interactive states
-│   └── _navbar.scss       # Navigation bar and mobile menu styling
+│   ├── _buttons.scss      # Buttons & call-to-action styles
+│   └── _navbar.scss       # Navigation bar & mobile menu
 ├── layout/
-│   ├── _header.scss       # Hero banner and layout sections
-│   └── _footer.scss       # Footer layout and links
-└── main.scss              # Primary entry file importing all partials
+│   ├── _header.scss       # Hero section & navigation
+│   └── _footer.scss       # Footer styling
+└── main.scss              # Main entry file importing all partials
